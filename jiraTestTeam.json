@@ -1,0 +1,177 @@
+{
+    "expand": "schema",
+    "startAt": 0,
+    "maxResults": 50,
+    "total": 1,
+    "issues": [
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "436170",
+			"self": "https://jira.test.com/rest/api/2/issue/436170",
+			"key": "TEAM-2",
+			"fields": {
+				"customfield_14526": [
+					{
+						"self": "https://jira.test.com/rest/api/2/user?username=manager1",
+						"name": "manager1",
+						"key": "manager1",
+						"emailAddress": "manager1@connectwise.com",
+						"avatarUrls": {
+							"48x48": "https://jira.test.com/secure/useravatar?avatarId=10122",
+							"24x24": "https://jira.test.com/secure/useravatar?size=small&avatarId=10122",
+							"16x16": "https://jira.test.com/secure/useravatar?size=xsmall&avatarId=10122",
+							"32x32": "https://jira.test.com/secure/useravatar?size=medium&avatarId=10122"
+						},
+						"displayName": "Manager-1",
+						"active": true,
+						"timeZone": "GMT"
+					}
+				],
+				"customfield_14517": [
+					{
+						"self": "https://jira.test.com/rest/api/2/user?username=scrum.manager1",
+						"name": "scrum.manager1",
+						"key": "JIRAUSER17707",
+						"emailAddress": "scrum.manager1@connectwise.com",
+						"avatarUrls": {
+							"48x48": "https://jira.test.com/secure/useravatar?avatarId=10122",
+							"24x24": "https://jira.test.com/secure/useravatar?size=small&avatarId=10122",
+							"16x16": "https://jira.test.com/secure/useravatar?size=xsmall&avatarId=10122",
+							"32x32": "https://jira.test.com/secure/useravatar?size=medium&avatarId=10122"
+						},
+						"displayName": "Scrum Master-1",
+						"active": true,
+						"timeZone": "GMT"
+					}
+				],
+				"customfield_14518": [
+					{
+						"self": "https://jira.test.com/rest/api/2/user?username=developer1",
+						"name": "developer1",
+						"key": "developer1",
+						"emailAddress": "developer1@connectwise.com",
+						"avatarUrls": {
+							"48x48": "https://jira.test.com/secure/useravatar?avatarId=10122",
+							"24x24": "https://jira.test.com/secure/useravatar?size=small&avatarId=10122",
+							"16x16": "https://jira.test.com/secure/useravatar?size=xsmall&avatarId=10122",
+							"32x32": "https://jira.test.com/secure/useravatar?size=medium&avatarId=10122"
+						},
+						"displayName": "Developer-1",
+						"active": true,
+						"timeZone": "GMT"
+					},
+					{
+						"self": "https://jira.test.com/rest/api/2/user?username=developer2",
+						"name": "developer2",
+						"key": "developer2",
+						"emailAddress": "developer2@connectwise.com",
+						"avatarUrls": {
+							"48x48": "https://jira.test.com/secure/useravatar?ownerId=developer2&avatarId=15090",
+							"24x24": "https://jira.test.com/secure/useravatar?size=small&ownerId=developer2&avatarId=15090",
+							"16x16": "https://jira.test.com/secure/useravatar?size=xsmall&ownerId=developer2&avatarId=15090",
+							"32x32": "https://jira.test.com/secure/useravatar?size=medium&ownerId=developer2&avatarId=15090"
+						},
+						"displayName": "Developer-2",
+						"active": true,
+						"timeZone": "Asia/Kolkata"
+					},
+					{
+						"self": "https://jira.test.com/rest/api/2/user?username=developer3",
+						"name": "developer3",
+						"key": "developer3",
+						"emailAddress": "developer3@connectwise.com",
+						"avatarUrls": {
+							"48x48": "https://jira.test.com/secure/useravatar?avatarId=10122",
+							"24x24": "https://jira.test.com/secure/useravatar?size=small&avatarId=10122",
+							"16x16": "https://jira.test.com/secure/useravatar?size=xsmall&avatarId=10122",
+							"32x32": "https://jira.test.com/secure/useravatar?size=medium&avatarId=10122"
+						},
+						"displayName": "Developer-3",
+						"active": true,
+						"timeZone": "GMT"
+					},
+					{
+						"self": "https://jira.test.com/rest/api/2/user?username=developer4",
+						"name": "developer4",
+						"key": "developer4",
+						"emailAddress": "developer4@connectwise.com",
+						"avatarUrls": {
+							"48x48": "https://jira.test.com/secure/useravatar?ownerId=developer4&avatarId=15421",
+							"24x24": "https://jira.test.com/secure/useravatar?size=small&ownerId=developer4&avatarId=15421",
+							"16x16": "https://jira.test.com/secure/useravatar?size=xsmall&ownerId=developer4&avatarId=15421",
+							"32x32": "https://jira.test.com/secure/useravatar?size=medium&ownerId=developer4&avatarId=15421"
+						},
+						"displayName": "Developer-4",
+						"active": true,
+						"timeZone": "GMT"
+					}
+				],
+				"customfield_14516": [
+					{
+						"self": "https://jira.test.com/rest/api/2/user?username=product.owner1",
+						"name": "product.owner1",
+						"key": "product.owner1",
+						"emailAddress": "product.owner1@connectwise.com",
+						"avatarUrls": {
+							"48x48": "https://jira.test.com/secure/useravatar?avatarId=10122",
+							"24x24": "https://jira.test.com/secure/useravatar?size=small&avatarId=10122",
+							"16x16": "https://jira.test.com/secure/useravatar?size=xsmall&avatarId=10122",
+							"32x32": "https://jira.test.com/secure/useravatar?size=medium&avatarId=10122"
+						},
+						"displayName": "Product Owner-1",
+						"active": true,
+						"timeZone": "GMT"
+					}
+				],
+				"customfield_14519": [
+					{
+						"self": "https://jira.test.com/rest/api/2/user?username=qualityEngineer1",
+						"name": "qualityEngineer1",
+						"key": "qualityEngineer1",
+						"emailAddress": "qualityEngineer1@connectwise.com",
+						"avatarUrls": {
+							"48x48": "https://jira.test.com/secure/useravatar?avatarId=10122",
+							"24x24": "https://jira.test.com/secure/useravatar?size=small&avatarId=10122",
+							"16x16": "https://jira.test.com/secure/useravatar?size=xsmall&avatarId=10122",
+							"32x32": "https://jira.test.com/secure/useravatar?size=medium&avatarId=10122"
+						},
+						"displayName": "qualityEngineer1",
+						"active": true,
+						"timeZone": "GMT"
+					},
+					{
+						"self": "https://jira.test.com/rest/api/2/user?username=qualityEngineer2",
+						"name": "qualityEngineer2",
+						"key": "qualityEngineer2",
+						"emailAddress": "qualityEngineer2@connectwise.com",
+						"avatarUrls": {
+							"48x48": "https://jira.test.com/secure/useravatar?avatarId=10122",
+							"24x24": "https://jira.test.com/secure/useravatar?size=small&avatarId=10122",
+							"16x16": "https://jira.test.com/secure/useravatar?size=xsmall&avatarId=10122",
+							"32x32": "https://jira.test.com/secure/useravatar?size=medium&avatarId=10122"
+						},
+						"displayName": "Quality Engineer-2",
+						"active": true,
+						"timeZone": "Asia/Kolkata"
+					}
+				],
+				"customfield_14504": {
+					"self": "https://jira.test.com/rest/api/2/user?username=product.manager1",
+					"name": "product.manager1",
+					"key": "product.manager1",
+					"emailAddress": "product.manager1@connectwise.com",
+					"avatarUrls": {
+						"48x48": "https://jira.test.com/secure/useravatar?avatarId=10122",
+						"24x24": "https://jira.test.com/secure/useravatar?size=small&avatarId=10122",
+						"16x16": "https://jira.test.com/secure/useravatar?size=xsmall&avatarId=10122",
+						"32x32": "https://jira.test.com/secure/useravatar?size=medium&avatarId=10122"
+					},
+					"displayName": "Product Manager-1",
+					"active": true,
+					"timeZone": "GMT"
+				},
+				"summary": "Team Name"
+			}
+		}
+	]
+}
