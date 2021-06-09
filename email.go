@@ -27,9 +27,16 @@ import (
 // 	}
 // }
 
-func sendMail(recipient string){
+func sendMail(sender string,recipients []string){
 //command = " mailx -s \"Exported Json File\" -A exported.json  "+recipient
-cmd := exec.Command("mailx","-s","\"Exported Json File\"","-A","exported.json",recipient)
+var cmd_args []string
+if sender == ""{
+	cmd_args=[]string{"-s","\"Exported Json File\"","-A","exported.json"}
+}else{
+cmd_args=[]string{"-s","\"Exported Json File\"","-A","exported.json","-r","\"JSON-Exporter<"+sender+">\""}
+}
+cmd_args=append(cmd_args,recipients...)
+cmd := exec.Command("mailx",cmd_args...)
 	err := cmd.Run()
 	if err != nil {
 		fmt.Println(err)
